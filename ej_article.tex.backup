@@ -1,0 +1,105 @@
+\documentclass[spanish,a4paper,10pt]{article}
+
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%123456789012345678901234567890123456789012345678901234567890123456789
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textheight    29cm
+%\textwidth     15cm
+%\topmargin     -4cm
+%\oddsidemargin  5mm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{El número $\pi$.}
+\author{Carmen Laura Martín González \\ Práctica de Laboratorio \#10}
+\date{9 de Abril de 2014}
+
+\maketitle
+
+\begin{abstract}
+El objetivo es describir y aprender un poco más sobre el número $\pi$. 
+\end{abstract}
+
+%\thispagestyle{empty}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Definición del número $\pi$}
+
+El número $\pi$ es uno de los pocos conceptos en las matemáticas,
+cuya mención evoca una respuesta de reconocimiento y el interés
+en aquellos que no se traten profesionalmente con el tema. Ha
+sido una parte de la cultura humana y la imaginación, estudiado
+durante más de veinticinco siglos.
+
+El número $\pi$ se define como la razón entre la longitud de una
+circunferencia y su diámetro. Este no es un número excto sino
+que es de los llamados irracionales, ya que tiene infinitas
+cifras decimales. Se emplea frecuentemente en matemáticas,
+física e ingeniería.
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Algunas curiosidades sobre el número $\pi$}
+
+\begin{enumerate}
+  \item
+    En distintas culturas, china, egipcia, europea, india, 
+    etc., se trato de obtener mejores aproximaciones de $\pi$ 
+    por ser de aplicación en campos tan distintos como la 
+    astronomía o la construcción.
+  \item
+    Muchos de los intentos de evaluar $\pi$ en la antigüedad 
+    utilizaban el método de calcular el perímetro de 
+    polígonos inscritos y circunscritos a circunferencias. 
+  \item
+    Modernamente para evaluar $\pi$ se utiliza una serie 
+    infinita convergente. Este método fue utilizado por 
+    primera vez en Kerala (India) en el Siglo XV.
+  \item
+    En 1706, el inglés William Jones fue el primero en 
+    utilizar el símbolo griego $\pi$ para denotar la relación 
+    entre la circunferencia y su diámetro. Euler en su obra 
+    "Introducción al cálculo infinitesimal", publicada en 
+    1748, le dio el espaldarazo definitivo.
+  \item
+    Ferdinand Lindemann(1852-1939) demostró que Pi es un número 
+    trascendental. Esto significa entre otras cosas que el 
+    problema de la cuadratura del círculo no tiene solución. 
+    Pese a ello todavía se sigue intentando.
+\end{enumerate}
+
+Por ejemplo, si se utilizan 4 subintervalos, la salida debería ser: 
+
+\begin{footnotesize}
+\begin{verbatim}
+Introduzca el número de intervalos (n > 0): 4
+Subintervalo: [0   , 0.25]   x_i: 0.125   fx_i: 3.93846
+Subintervalo: [0.25, 0.5 ]   x_i: 0.375   fx_i: 3.50685
+Subintervalo: [0.5 , 0.75]   x_i: 0.625   fx_i: 2.8764
+Subintervalo: [0.75, 1   ]   x_i: 0.875   fx_i: 2.26549
+
+El valor aproximado de PI es:  3.14680051839 
+El valor de PI con 35 decimales: 3.1415926535897931159979634685441852 \end{verbatim}
+\end{footnotesize}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Entregable}
+En la tarea habilitada para esta práctica en el Aula Virtual, se subirá 
+la dirección del repositorio \textit{github} donde se ha almacenado la práctica. 
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Para saber más...}
+
+Amplíe el programa \textsf{Python} que ha desarrollado para que el número de
+subintervalos se pueda obtener también desde la línea de comandos.
+
+\begin{thebibliography}{1}
+\bibitem{python} Tutorial de Python. http://docs.python.org/2/tutorial/ 
+\end{thebibliography}
+
+\end{document}

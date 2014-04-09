@@ -1,0 +1,142 @@
+\documentclass[spanish,a4paper,10pt]{article}
+
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%123456789012345678901234567890123456789012345678901234567890123456789
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textheight    29cm
+%\textwidth     15cm
+%\topmargin     -4cm
+%\oddsidemargin  5mm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[scale=0.75]{imagen1.eps}
+\end{center}
+\end{figure}
+
+\begin{document}
+\title{El número $\pi$.}
+\author{Carmen Laura Martín González \\ Práctica de Laboratorio \#10}
+\date{9 de Abril de 2014}
+
+\maketitle
+
+\begin{abstract}
+El objetivo es describir y aprender un poco más sobre el número $\pi$. 
+\end{abstract}
+
+%\thispagestyle{empty}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Definición del número $\pi$}
+
+El número $\pi$ es uno de los pocos conceptos en las matemáticas,
+cuya mención evoca una respuesta de reconocimiento y el interés
+en aquellos que no se traten profesionalmente con el tema. Ha
+sido una parte de la cultura humana y la imaginación, estudiado
+durante más de veinticinco siglos.
+
+El número $\pi$ se define como la razón entre la longitud de una
+circunferencia y su diámetro. Este no es un número exacto sino
+que es de los llamados irracionales\footnote{Los números irracionales tienen como definición que son números que poseen infinitas cifras decimales no periódicas, que por lo tanto no pueden ser expresados como fracciones.}. Se emplea frecuentemente en 
+matemáticas, física e ingeniería.
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Algunas curiosidades sobre el número $\pi$}
+
+\begin{enumerate}
+  \item
+    En distintas culturas, china, egipcia, europea, india, 
+    etc., se trato de obtener mejores aproximaciones de $\pi$ 
+    por ser de aplicación en campos tan distintos como la 
+    astronomía o la construcción.
+  \item
+    Muchos de los intentos de evaluar $\pi$ en la antigüedad 
+    utilizaban el método de calcular el perímetro de 
+    polígonos inscritos y circunscritos a circunferencias. 
+  \item
+    Modernamente para evaluar $\pi$ se utiliza una serie 
+    infinita convergente. Este método fue utilizado por 
+    primera vez en Kerala (India) en el Siglo XV.
+  \item
+    En 1706, el inglés William Jones fue el primero en 
+    utilizar el símbolo griego $\pi$ para denotar la relación 
+    entre la circunferencia y su diámetro. Euler en su obra 
+    "Introducción al cálculo infinitesimal", publicada en 
+    1748, le dio el espaldarazo definitivo.
+  \item
+    Ferdinand Lindemann(1852-1939) demostró que Pi es un número 
+    trascendental. Esto significa entre otras cosas que el 
+    problema de la cuadratura del círculo no tiene solución. 
+    Pese a ello todavía se sigue intentando.
+\end{enumerate}
+
+\subsection{Algunos valores de $\pi$}
+\begin{tabular}{lrc}
+ Matemático o lugar & Año & Valor\\
+ \hline
+ La Biblia &     & 3\\
+ \hline
+ Papiro de Ahmes(Egipto) & 1650 a.C & 3.16\\
+ \hlineLos
+ Tablilla de Susa(Babilonia) & 1600 a.C & 3.125\\
+ \hline
+ Bandhayana(India) & 500 a.C & 3.09\\
+ \hline
+ Arquímedes de Siracusa & 287-212 a.C & Entre 223/71 y 220/70 \\
+ \hline
+ Liu Hui(China) & 260 a.C & 3.1416\\
+ \hline
+ Tsu Chung Chih & 480 a.C & Entre 3.145926 y 3.1415927\\
+ \hline
+ Al-Kashia(Persia) & 1429 a.C & 3.1415926535897932\\
+ \hline
+ Franciscus Vieta (Francia) & 1540-1603 a.C & 3.1415926536
+ \hline
+ \end{tabular}
+ \subsection{Cuestiones abiertas sobre $\pi$}
+ \begin{enumerate}
+   \item
+    Cada uno de los dígitos decimales 0, 1, 2, 3, 4, 5, 6, 7, 
+    8 y 9, ¿tiene una aparición infinita en los decimales de $\pi$?
+   \item
+    La denominada cuestión de Brouwer: en la expansión decimal 
+    de $\pi$, ¿existe alguna posición donde exista una sucesión de 
+    mil ceros consecutivos?
+   \item
+    ¿Es $\pi$ simplemente normal en base 10? Es decir, ¿tiene cada 
+    uno de los diez dígitos del sistema decimal la misma 
+    probabilidad de aparición en una expansión decimal?
+   \item
+   No se sabe si $\pi$+e, $\pi$/e, ln($\pi$) son irracionales. Se sabe que 
+   no son raíces de polinomios de grado inferior a nueve y con 
+   coeficientes enteros del orden 109.48 49
+ \end{enumerate}
+   
+\end{tabular}
+
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Entregable}
+En la tarea habilitada para esta práctica en el Aula Virtual, se subirá 
+la dirección del repositorio \textit{github} donde se ha almacenado la práctica. 
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Para saber más...}
+
+Amplíe el programa \textsf{Python} que ha desarrollado para que el número de
+subintervalos se pueda obtener también desde la línea de comandos.
+
+\begin{thebibliography}{1}
+\bibitem{python} Tutorial de Python. http://docs.python.org/2/tutorial/ 
+\end{thebibliography}
+
+\end{document}
