@@ -18,7 +18,7 @@
 
 \begin{figure}[t]
 \begin{center}
-\includegraphics[scale=0.75]{imagen1.eps}
+\includegraphics[scale=0.075]{imagen1.eps}
 \end{center}
 \end{figure}
 
@@ -78,7 +78,7 @@ matemáticas, física e ingeniería.
     Pese a ello todavía se sigue intentando.
 \end{enumerate}
 
-\subsection{Algunos valores de $\pi$}
+\subsection{Algunos valores de $\pi$~\cite{1}} 
 \begin{tabular}{lrc}
  Matemático o lugar & Año & Valor\\
  \hline
@@ -101,7 +101,7 @@ matemáticas, física e ingeniería.
  Franciscus Vieta (Francia) & 1540-1603 a.C & 3.1415926536
  \hline
  \end{tabular}
- \subsection{Cuestiones abiertas sobre $\pi$}
+ \subsection{Cuestiones abiertas sobre $\pi$~\cite{2}} 
  \begin{enumerate}
    \item
     Cada uno de los dígitos decimales 0, 1, 2, 3, 4, 5, 6, 7, 
@@ -122,21 +122,13 @@ matemáticas, física e ingeniería.
    
 \end{tabular}
 
-
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Entregable}
-En la tarea habilitada para esta práctica en el Aula Virtual, se subirá 
-la dirección del repositorio \textit{github} donde se ha almacenado la práctica. 
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Para saber más...}
-
-Amplíe el programa \textsf{Python} que ha desarrollado para que el número de
-subintervalos se pueda obtener también desde la línea de comandos.
-
-\begin{thebibliography}{1}
-\bibitem{python} Tutorial de Python. http://docs.python.org/2/tutorial/ 
+\begin{thebibliography}{11}
+\bibitem{1} http://ciencianet.com/pi.html
+\bibitem{2} http://es.wikipedia.org
+\\http://campusvirtual.ull.es/1314/pluginfile.php/197714/mod_resource/content/3/TeoriaLaTeX.1.pdf\\
+\\http://campusvirtual.ull.es/1314/pluginfile.php/197721/mod_resource/content/3/TeoriaLaTeX.2.pdf\\
 \end{thebibliography}
 
 \end{document}

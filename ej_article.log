@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.12)  9 APR 2014 19:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.3.12)  10 APR 2014 17:53
 entering extended mode
  %&-line parsing enabled.
 **ej_article.tex
@@ -375,14 +375,63 @@ l.123 \end{tabular}
 l.123 \end{tabular}
                    
 ? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.130 ...al.ull.es/1314/pluginfile.php/197714/mod_
+                                                  resource/content/3/TeoriaL...
+
+? 
+
+! LaTeX Error: Command \end{thebibliography} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{thebibliography}
+                           
+? 
+
+LaTeX Warning: Empty `thebibliography' environment on input line 132.
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 132.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \end{thebibliography}
+                           
+? 
+
+Overfull \hbox (101.66277pt too wide) in paragraph at lines 129--133
+\OT1/cmr/m/n/10 http://campusvirtual.ull.es/1314/pluginfile.php/197714/mod$[]\O
+ML/cmm/m/it/10 esource=content=\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 =TeoriaLaTeX[]
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :pdf[] 
+ []
+
+
+Overfull \hbox (116.1925pt too wide) in paragraph at lines 129--133
+\OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==campusvirtual:ull:es
+=\OT1/cmr/m/n/10 1314\OML/cmm/m/it/10 =pluginfile:php=\OT1/cmr/m/n/10 197721\OM
+L/cmm/m/it/10 =mod[]esource=content=\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 =TeoriaLa
+TeX[]\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :pdf[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+
+ []
+
 [2] (./ej_article.aux) ) 
 Here is how much of TeX's memory you used:
- 2570 strings out of 495062
- 30822 string characters out of 1182644
+ 2575 strings out of 495062
+ 30891 string characters out of 1182644
  91883 words of memory out of 3000000
- 5712 multiletter control sequences out of 15000+50000
- 17147 words of font info for 72 fonts, out of 3000000 for 9000
+ 5719 multiletter control sequences out of 15000+50000
+ 16496 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,8n,27p,282b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ej_article.dvi (2 pages, 6432 bytes).
+Output written on ej_article.dvi (2 pages, 6256 bytes).
